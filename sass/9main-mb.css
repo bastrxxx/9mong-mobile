@@ -215,12 +215,18 @@ main {
   z-index: 9;
   position: relative;
 }
+.header .header-center a.header-logo {
+  display: block;
+  background: transparent;
+}
 .header .header-center a.header-logo img {
   max-width: 50%;
   width: 30%;
 }
 .header .header-center .btnvideo {
   position: relative;
+  display: block;
+  background: transparent;
 }
 .header .header-center .btnvideo:hover {
   transform: scale(1.01);
@@ -246,6 +252,7 @@ main {
 }
 
 .btnlist {
+  z-index: 15;
   left: 10px;
   top: calc(130px * var(--ratio));
   font-size: 2rem;
@@ -253,6 +260,8 @@ main {
   filter: drop-shadow(0px 0px 1px #ffffff);
   width: 50px;
   height: 50px;
+  display: block;
+  background: transparent;
 }
 
 .offcanvas {
