@@ -252,16 +252,20 @@ main {
 }
 
 .btnlist {
+  text-align: left;
   z-index: 15;
   left: 10px;
   top: calc(130px * var(--ratio));
-  font-size: 2rem;
   color: #1d3355;
   filter: drop-shadow(0px 0px 1px #ffffff);
   width: 50px;
   height: 50px;
   display: block;
   background: transparent;
+}
+.btnlist i {
+  font-size: 2rem;
+  text-align: left;
 }
 
 .offcanvas {
