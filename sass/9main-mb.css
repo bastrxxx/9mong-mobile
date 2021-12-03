@@ -227,9 +227,8 @@ main {
   position: relative;
   display: block;
   background: transparent;
-}
-.header .header-center .btnvideo:hover {
-  transform: scale(1.01);
+  border: none;
+  outline: none;
 }
 .header .header-center .btnvideo img {
   opacity: 1;
@@ -252,9 +251,9 @@ main {
 }
 
 .btnlist {
-  text-align: left;
+  text-align: center;
   z-index: 15;
-  left: 10px;
+  left: 0;
   top: calc(130px * var(--ratio));
   color: #1d3355;
   filter: drop-shadow(0px 0px 1px #ffffff);
