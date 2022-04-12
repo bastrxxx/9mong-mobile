@@ -90,24 +90,9 @@ main {position: relative;height: 100vh;}
 }
 .slider{width: 100%;overflow: hidden;}
 .allbutton{
-  a.btn-1{display: block;position: relative;
+  a.btn-1{display: block;
     img{width: 100%;}
     &:hover{filter: brightness(120%);}
-    .light{
-      position: absolute;
-      top: 0;
-      left: 50%;transform: translateX(-50%);
-      z-index: 2;
-      overflow: hidden;
-      -webkit-filter: brightness(3);
-      filter: brightness(3);
-      -webkit-mask-size: 300% 200%;
-      mask-size: 300% 200%;
-       -webkit-mask-image: -webkit-linear-gradient(-60deg, rgba(255,255,255,0) 30%, #fff 50%, rgba(255,255,255,0) 60%);
-      mask-image: -webkit-linear-gradient(-60deg, rgba(255,255,255,0) 40%, #fff 50%, rgba(255,255,255,0) 60%);
-      -webkit-animation: laluot linear 2.5s infinite 1.5s;
-      animation: laluot linear 2.5s infinite 1.5s;
-    }
   }
 }
 .maincontent{position: relative;z-index: 11;

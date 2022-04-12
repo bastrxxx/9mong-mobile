@@ -328,12 +328,28 @@ main {
 
 .allbutton a.btn-1 {
   display: block;
+  position: relative;
 }
 .allbutton a.btn-1 img {
   width: 100%;
 }
 .allbutton a.btn-1:hover {
   filter: brightness(120%);
+}
+.allbutton a.btn-1 .light {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  overflow: hidden;
+  filter: brightness(3);
+  -webkit-mask-size: 300% 200%;
+  mask-size: 300% 200%;
+  -webkit-mask-image: -webkit-linear-gradient(-60deg, rgba(255, 255, 255, 0) 40%, #fff 50%, rgba(255, 255, 255, 0) 60%);
+          mask-image: -webkit-linear-gradient(-60deg, rgba(255, 255, 255, 0) 40%, #fff 50%, rgba(255, 255, 255, 0) 60%);
+  -webkit-animation: laluot linear 2.5s infinite 1.5s;
+  animation: laluot linear 2.5s infinite 1.5s;
 }
 
 .maincontent {
